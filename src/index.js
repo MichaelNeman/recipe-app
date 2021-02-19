@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const RECIPES = [
+  {name: 'Recipe 1', ingredients: ['item 1', 'item 2', 'item 3'], instructions: 'string detailing recipe instructions'},
+  {name: 'Recipe 2', ingredients: ['item 1', 'item 2', 'item 3'], instructions: 'string detailing recipe instructions'},
+  {name: 'Recipe 3', ingredients: ['item 1', 'item 2', 'item 3'], instructions: 'string detailing recipe instructions'}
+];
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
