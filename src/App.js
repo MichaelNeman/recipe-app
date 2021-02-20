@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import NewRecipe from "./components/newRecipe";
 
 class App extends React.Component {
   
@@ -12,10 +13,8 @@ class App extends React.Component {
         <div className="navigation">
           <h2>Placeholder</h2>
         </div>
-        <div className="welcome-page">
-         <p> Welcome to the Recipe App. Create a new recipe to 
-          begin or login to view saved recipes</p>
-        </div>
+        <NewRecipe />
+     
       </div>
     );
   }
