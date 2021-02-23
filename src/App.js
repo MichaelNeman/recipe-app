@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import NewRecipe from "./components/newRecipe";
+import RecipeList from "./components/recipeList";
 
 class App extends React.Component {
   
@@ -11,7 +12,8 @@ class App extends React.Component {
         <h1>Recipe App</h1>
         </div>
         <div className="navigation">
-          <h2>Placeholder</h2>
+          <h2>Recipes</h2>
+          <RecipeList />
         </div>
         <NewRecipe />
      
