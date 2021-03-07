@@ -1,15 +1,20 @@
 import React from 'react';
+import App from '../App';
 
-class RecipeList extends React.Component {
-    render() {
-        return (
+
+
+const RecipeList = props =>
+    props.list.map(item => (
+        <div key="item.id">
             <ul>
-                <li>Chicken and Vegetable Soup</li>
-                <li>Meatballs</li>
-                <li>Pulled Pork</li>
+                <li>
+                    {item.name}
+                </li>
             </ul>
-        );
-    }
-}
+        </div>
+
+    ));
+
+
 
 export default RecipeList;

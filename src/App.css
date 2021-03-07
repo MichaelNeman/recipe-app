@@ -19,8 +19,13 @@
     }
 
     .navigation {
-        text-align: center;
+        text-align: left;
         height: 100vh;
+        margin-left: 25px;
+    }
+
+    .nav-header {
+        padding-left: 25px;
     }
 
     .welcome-page {
